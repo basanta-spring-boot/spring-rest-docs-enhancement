@@ -1,0 +1,16 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 134
+
+[ {
+  "id" : 101,
+  "name" : "core java",
+  "price" : 500.0
+}, {
+  "id" : 102,
+  "name" : "spring boot",
+  "price" : 800.0
+} ]
+----

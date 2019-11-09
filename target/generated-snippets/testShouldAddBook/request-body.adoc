@@ -1,0 +1,8 @@
+[source,options="nowrap"]
+----
+{
+  "id" : 199,
+  "name" : "Hibernate",
+  "price" : 800.0
+}
+----

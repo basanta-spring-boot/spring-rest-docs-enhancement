@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/books' -i -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "id" : 199,
+  "name" : "Hibernate",
+  "price" : 800.0
+}'
+----

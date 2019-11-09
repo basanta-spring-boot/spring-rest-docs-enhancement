@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.spring.docs.SpringRestDocsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.541 s <<< FAILURE! - in com.javatechie.spring.docs.SpringRestDocsApplicationTests
+testShouldAddBook  Time elapsed: 0.125 s  <<< ERROR!
+org.springframework.restdocs.snippet.SnippetException: Request parameters with the following names were not found in the request: [price, name, id]
+	at com.javatechie.spring.docs.SpringRestDocsApplicationTests.testShouldAddBook(SpringRestDocsApplicationTests.java:62)
+
